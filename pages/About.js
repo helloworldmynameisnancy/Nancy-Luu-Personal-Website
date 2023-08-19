@@ -1,6 +1,6 @@
 import React from 'react';
 import Layout from './Layout';
-import Typical from 'react-typical';
+import Typical from "react-typical"
 import Image from 'next/image';
 import lauren from '../public/Nancy Final.png';
 
