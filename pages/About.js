@@ -11,7 +11,7 @@ function AboutPage({ darkMode, setDarkMode }) {
      <section className="flex flex-col md:flex-row -my-28 -mb-8">
        <div className="text-emerald-700 font-titleFont2 px-4 md:px-16 py-6 md:py-12 dark:text-red-50 md:w-1/2 md:pr-8">
          <p className="sm: text-2xl md:text-3xl lg:text-4xl md:max-w-xl">
-             Xin Chào, I'm a{' '}
+             Xin Chào, I&apos;m a{' '}
              <Typical
                loop={1}
                wrapper="b"
