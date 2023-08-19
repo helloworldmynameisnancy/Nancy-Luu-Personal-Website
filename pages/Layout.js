@@ -1,7 +1,6 @@
 import React from 'react';
 import Navbar from './nav';
-import { useState } from "react";
-import { useState } from "react";
+import { useState } from 'react';
 
 function Layout({ children}) {
   const [darkMode, setDarkMode]= useState(false);
