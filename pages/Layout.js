@@ -1,17 +1,7 @@
 import React from 'react';
-<<<<<<< HEAD
-import Navbar from './Nav';
-import { useState } from "react";
-=======
 import Navbar from './nav';
 import { useState } from "react";
-import {
-  AiFillFile,
-  AiFillLinkedin,
-  AiFillGithub,
-  AiFillMail
- } from 'react-icons/ai'
->>>>>>> 7ab069a (My first commit of this code)
+import { useState } from "react";
 
 function Layout({ children}) {
   const [darkMode, setDarkMode]= useState(false);
