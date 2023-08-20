@@ -30,7 +30,7 @@ export default function Home() {
          clearInterval(intervalId);
          clearInterval(cursorInterval);
       };
-   }, [typedText]);
+   }, [darkMode, typedText, textSteps]);
 
    return (
       <div className={darkMode ? 'dark' : ''}>

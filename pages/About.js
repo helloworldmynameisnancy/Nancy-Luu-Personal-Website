@@ -35,7 +35,7 @@ function AboutPage({ darkMode, setDarkMode }) {
          
          return () => clearInterval(intervalId);
       }
-   }, [isTyping, typedText, currentStep]);
+   }, [isTyping, typedText, currentStep, textSteps]);
 
    useEffect(() => {
       const cursorInterval = setInterval(() => {
@@ -43,14 +43,14 @@ function AboutPage({ darkMode, setDarkMode }) {
       }, 500);
 
       return () => clearInterval(cursorInterval);
-   }, []);
+   }, [isTyping, typedText, currentStep, textSteps]);
 
    return (
       <Layout darkMode={darkMode} setDarkMode={setDarkMode}>
          <section className="flex flex-col md:flex-row -my-28 -mb-8">
             <div className="text-emerald-700 font-titleFont2 px-4 md:px-16 py-6 md:py-12 dark:text-red-50 md:w-1/2 md:pr-8">
                <p className="sm:text-2xl md:text-3xl lg:text-4xl md:max-w-xl">
-                  Xin Chào, I'm a <b>{typedText}</b>
+                  Xin Chào, I&apos;m a <b>{typedText}</b>
                   <span className={showCursor ? 'cursor' : ''}>|</span>
                </p>
                <p className="text-xl md:text-lg">
