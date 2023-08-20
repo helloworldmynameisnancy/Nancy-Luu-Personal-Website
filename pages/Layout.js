@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from './nav';
+import Navbar from './Navbar';
 import { useState } from 'react';
 
 function Layout({ children}) {
