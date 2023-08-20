@@ -8,8 +8,7 @@ function AboutPage({ darkMode, setDarkMode }) {
       'student.',
       'developer.',
       'chef (wannabe).',
-      'plant-mom.',
-      'student.'
+      'plant-mom.'
    ];
 
    const [currentStep, setCurrentStep] = useState(0);
