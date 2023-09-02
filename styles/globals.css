@@ -28,3 +28,12 @@ a {
 * {
   box-sizing: border-box;
 }
+.margin-wrapper {
+  margin: 20px; 
+  background-color: yellow; 
+}
+.element-to-style {
+  background-color: white; /* Set the background color of the element */
+  border: 1px solid green; /* Set the border color */
+  padding: 10px; /* Add padding to separate content from the border */
+}

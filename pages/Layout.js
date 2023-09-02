@@ -6,8 +6,8 @@ function Layout({ children}) {
   const [darkMode, setDarkMode]= useState(false);
   return(
      <div className={darkMode? "dark" : ""}>
-      <main className="bg-red-50 border-spacing border-t-60 border-b-60 border-l-60 border-r-60 border-emerald-700 dark:bg-emerald-700 dark:border-red-50">
-        <section className="min-h-full">
+      <main className="bg-red-50 dark:bg-emerald-700 dark:border-red-50">
+        <section className="min-h-screen">
           <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
           <div className="flex flex-col items-center justify-center min-h-screenflex">
             {children}

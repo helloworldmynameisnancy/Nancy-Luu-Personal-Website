@@ -34,8 +34,8 @@ export default function Home() {
 
    return (
       <div className={darkMode ? 'dark' : ''}>
-         <main className="bg-red-50 border-spacing border-t-60 border-b-60 border-l-60 border-r-60 border-emerald-700 dark:bg-emerald-700 dark:border-red-50">
-            <section className="min-h-full">
+         <main className="min-h-screen bg-red-50 dark:bg-emerald-700">
+            <section className="">
                <nav className="py-8 mb-48 flex justify-between font-titleFont2 text-emerald-700 dark:text-red-50">
                   <Link href="/" legacyBehavior>
                      <a className="text-xl px-16">developedbynancy</a>
@@ -49,7 +49,7 @@ export default function Home() {
                      </li>
                      <li className="px-20">
                         <Link href="/About" legacyBehavior>
-                           <a className="bg-white-500 px-4 dark:text-white text-xl">About</a>
+                           <a className="px-4 dark:text-white text-xl">About</a>
                         </Link>
                      </li>
                   </ul>
@@ -61,7 +61,7 @@ export default function Home() {
                      <span className={showCursor ? 'cursor' : ''}>|</span>
                   </p>
                </div>
-               <div className="text-3xl md:text-4xl flex justify-center gap-5 py-1 mb-64 text-emerald-700 dark:text-white">
+               <div className="text-3xl md:text-4xl flex justify-center gap-5 py-1 text-emerald-700 dark:text-white">
                   <a href="Resume-Nancy%20Luu.pdf" target="_blank" rel="noopener noreferrer">
                      <AiFillFile />
                   </a>
