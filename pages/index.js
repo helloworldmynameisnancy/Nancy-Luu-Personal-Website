@@ -42,7 +42,7 @@ export default function Home() {
             <section className="">
                <nav className="py-8 mb-48 flex justify-between font-titleFont2 text-emerald-700 dark:text-red-50">
                   <Link href="/" legacyBehavior>
-                     <a className="text-xl px-16">developedbynancy</a>
+                     <a className="sm:px-8 md:px-12 lg:px-166">developedbynancy</a>
                   </Link>
                   <ul className="flex items-center">
                      <li>
