@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
+import Head from 'next/head';
 import { BsFillMoonStarsFill } from 'react-icons/bs';
 import { AiFillFile, AiFillLinkedin, AiFillGithub, AiFillMail } from 'react-icons/ai';
 
@@ -34,6 +35,9 @@ export default function Home() {
 
    return (
       <div className={darkMode ? 'dark' : ''}>
+         <Head>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+         </Head>
          <main className="min-h-screen bg-red-50 dark:bg-emerald-700">
             <section className="">
                <nav className="py-8 mb-48 flex justify-between font-titleFont2 text-emerald-700 dark:text-red-50">
@@ -44,12 +48,12 @@ export default function Home() {
                      <li>
                         <BsFillMoonStarsFill
                            onClick={() => setDarkMode(!darkMode)}
-                           className="cursor-pointer text-2xl fill-emerald-700 dark:fill-white"
+                           className="cursor-pointer text-2xl fill-emerald-700 dark:fill-red-50"
                         />
                      </li>
                      <li className="px-20">
                         <Link href="/About" legacyBehavior>
-                           <a className="px-4 dark:text-white text-xl">About</a>
+                           <a className="px-4 dark:text-red-50 text-xl">About</a>
                         </Link>
                      </li>
                   </ul>
@@ -61,7 +65,7 @@ export default function Home() {
                      <span className={showCursor ? 'cursor' : ''}>|</span>
                   </p>
                </div>
-               <div className="text-3xl md:text-4xl flex justify-center gap-5 py-1 text-emerald-700 dark:text-white">
+               <div className="text-3xl md:text-4xl flex justify-center gap-5 py-1 text-emerald-700 dark:text-red-50">
                   <a href="Resume-Nancy%20Luu.pdf" target="_blank" rel="noopener noreferrer">
                      <AiFillFile />
                   </a>
