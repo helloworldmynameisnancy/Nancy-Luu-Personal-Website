@@ -42,7 +42,7 @@ export default function Home() {
             <section className="">
                <nav className="py-8 mb-48 flex justify-between font-titleFont2 text-emerald-700 dark:text-red-50">
                   <Link href="/" legacyBehavior>
-                     <a className="sm:px-8 md:px-12 lg:px-166">developedbynancy</a>
+                     <a className="text-xl sm:px-8 md:px-12 lg:px-16 ml-3">developedbynancy</a>
                   </Link>
                   <ul className="flex items-center">
                      <li>
@@ -51,16 +51,16 @@ export default function Home() {
                            className="cursor-pointer text-2xl fill-emerald-700 dark:fill-red-50"
                         />
                      </li>
-                     <li className="sm:px-8 md:px-12 lg:px-16">
+                     <li className="px-4 sm:px-8 md:px-12 lg:px-16">
                         <Link href="/About" legacyBehavior>
-                           <a className="px-4 dark:text-red-50 text-xl">About</a>
+                           <a className=" dark:text-red-50 text-xl">About</a>
                         </Link>
                      </li>
                   </ul>
                </nav>
                <div className="dark:text-red-50 flex flex-col items-center justify-center font-titleFont2 text-emerald-700">
-                  <h1 className="text-6xl md:text-7xl">Nancy Luu</h1>
-                  <p className="text-xl md:text-2xl py-3 mdl:text-xl max-w-xl mx-auto dark:text-red-50">
+                  <h1 className="text-6xl">Nancy Luu</h1>
+                  <p className="sm:text-xl md:text-2xl py-3 mdl:text-xl max-w-xl mx-auto dark:text-red-50">
                      {typedText}
                      <span className={showCursor ? 'cursor' : ''}>|</span>
                   </p>

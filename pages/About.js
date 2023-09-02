@@ -48,7 +48,7 @@ function AboutPage({ darkMode, setDarkMode }) {
       <Layout darkMode={darkMode} setDarkMode={setDarkMode}>
          <section className="flex flex-col md:flex-row -my-28 -mb-8">
             <div className="text-emerald-700 font-titleFont2 px-4 md:px-16 py-6 md:py-12 dark:text-red-50 md:w-1/2 md:pr-8">
-               <p className="md: text-3xl md:max-w-xl">
+               <p className="sm:text-2xl md:text-3xl lg:text-4xl md:max-w-xl">
                   Xin Chào, I&apos;m a <b>{typedText}</b>
                   <span className={showCursor ? 'cursor' : ''}>|</span>
                </p>
