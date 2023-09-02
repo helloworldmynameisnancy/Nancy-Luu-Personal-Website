@@ -51,7 +51,7 @@ export default function Home() {
                            className="cursor-pointer text-2xl fill-emerald-700 dark:fill-red-50"
                         />
                      </li>
-                     <li className="px-20">
+                     <li className="sm:px-8 md:px-12 lg:px-16">
                         <Link href="/About" legacyBehavior>
                            <a className="px-4 dark:text-red-50 text-xl">About</a>
                         </Link>

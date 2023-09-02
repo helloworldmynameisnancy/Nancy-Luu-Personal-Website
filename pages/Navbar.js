@@ -12,7 +12,7 @@ function Navbar({ darkMode, setDarkMode }) {
      <ul className="flex items-center">
        <li><BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className="cursor-pointer text-2xl fill-emerald-700 dark:fill-white"/>
        </li>
-       <li className="px-20">
+       <li className="sm:px-8 md:px-12 lg:px-16">
          <Link href="/About" legacyBehavior>
          <a className="bg-white-500 px-4 dark:text-white text-xl">About</a>
          </Link>
