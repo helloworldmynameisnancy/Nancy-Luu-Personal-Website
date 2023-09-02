@@ -59,8 +59,8 @@ export default function Home() {
                   </ul>
                </nav>
                <div className="dark:text-red-50 flex flex-col items-center justify-center font-titleFont2 text-emerald-700">
-                  <h1 className="text-6xl">Nancy Luu</h1>
-                  <p className="sm:text-xl md:text-2xl py-3 mdl:text-xl max-w-xl mx-auto dark:text-red-50">
+                  <h1 className="text-6xl xl:text-7xl lg:mt-10 2xl:mt-30">Nancy Luu</h1>
+                  <p className="sm:text-xl md:text-2xl py-3 max-w-xl mx-auto dark:text-red-50">
                      {typedText}
                      <span className={showCursor ? 'cursor' : ''}>|</span>
                   </p>
